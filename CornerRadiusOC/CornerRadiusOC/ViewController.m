@@ -10,6 +10,8 @@
 #import "CustomTableViewCell.h"
 #import "UIView+RoundCorner.h"
 
+#define arcColor [UIColor colorWithRed:arc4random()%256/255.0f green:arc4random()%256/255.0f blue:arc4random()%256/255.0f alpha:1.0f]
+
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic) UITableView * tableView;
@@ -38,7 +40,9 @@
     CustomTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    [cell setupContent:@"photo"];
+    
+    cell.rcView.cornerBackgroundColor = arcColor;
+    cell.rcImageView.rcImage = [UIImage imageNamed:@"photo"];
     
     return cell;
 }

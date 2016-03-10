@@ -16,6 +16,7 @@
 		FC65B31F1C90172A005A0AED /* UIView+RoundCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65B31E1C90172A005A0AED /* UIView+RoundCorner.m */; };
 		FC65B3221C9021BF005A0AED /* UIImage+ImageRoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65B3211C9021BF005A0AED /* UIImage+ImageRoundedCorner.m */; };
 		FC65B3251C907250005A0AED /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65B3241C907250005A0AED /* CustomTableViewCell.m */; };
+		FC65B3281C911E65005A0AED /* RCView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65B3271C911E65005A0AED /* RCView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		FC65B3211C9021BF005A0AED /* UIImage+ImageRoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageRoundedCorner.m"; sourceTree = "<group>"; };
 		FC65B3231C907250005A0AED /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		FC65B3241C907250005A0AED /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		FC65B3261C911E65005A0AED /* RCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCView.h; sourceTree = "<group>"; };
+		FC65B3271C911E65005A0AED /* RCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				FC65B30A1C9012B4005A0AED /* ViewController.m */,
 				FC65B3231C907250005A0AED /* CustomTableViewCell.h */,
 				FC65B3241C907250005A0AED /* CustomTableViewCell.m */,
+				FC65B3261C911E65005A0AED /* RCView.h */,
+				FC65B3271C911E65005A0AED /* RCView.m */,
 				FC65B31D1C90172A005A0AED /* UIView+RoundCorner.h */,
 				FC65B31E1C90172A005A0AED /* UIView+RoundCorner.m */,
 				FC65B3201C9021BF005A0AED /* UIImage+ImageRoundedCorner.h */,
@@ -169,6 +174,7 @@
 				FC65B30B1C9012B4005A0AED /* ViewController.m in Sources */,
 				FC65B3251C907250005A0AED /* CustomTableViewCell.m in Sources */,
 				FC65B3081C9012B4005A0AED /* AppDelegate.m in Sources */,
+				FC65B3281C911E65005A0AED /* RCView.m in Sources */,
 				FC65B3051C9012B4005A0AED /* main.m in Sources */,
 				FC65B31F1C90172A005A0AED /* UIView+RoundCorner.m in Sources */,
 			);
@@ -283,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CornerRadiusOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smooth.CornerRadiusOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CornerRadiusOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smooth.CornerRadiusOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -321,6 +329,7 @@
 				FC65B3191C9012B4005A0AED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

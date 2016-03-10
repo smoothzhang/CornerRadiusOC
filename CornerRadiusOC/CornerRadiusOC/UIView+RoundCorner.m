@@ -49,13 +49,24 @@ double Pixel(double num) {
 
 - (void)addCornerWithRadius:(CGFloat)radius {
     
-    [self addCornerWithRadius:radius borderWidth:1 backgroundColor:[UIColor clearColor] borderColor:[UIColor blackColor]];
+    [self addCornerWithRadius:radius borderWidth:0 backgroundColor:self.backgroundColor borderColor:[UIColor clearColor]];
 }
 
-- (void)addCornerWithRadius:(CGFloat)radius borderWidth:(CGFloat)borderWidth backgroundColor:(UIColor *)backgroundColor borderColor:(UIColor *)borderColor {
+- (UIImageView *)addCornerWithRadius:(CGFloat)radius borderWidth:(CGFloat)borderWidth backgroundColor:(UIColor *)backgroundColor borderColor:(UIColor *)borderColor {
+    
+    if (!backgroundColor) {
+        backgroundColor = [UIColor clearColor];
+    }
+    if (!borderColor) {
+        borderColor = [UIColor clearColor];
+    }
     
     UIImageView * imageView = [[UIImageView alloc] initWithImage:[self drawRectWithRoundedCorner:radius borderWidth:borderWidth backgroundColor:backgroundColor borderColor:borderColor]];
     [self insertSubview:imageView atIndex:0];
+    
+    self.backgroundColor = [UIColor clearColor];
+    
+    return imageView;
 }
 
 - (UIImage *)drawRectWithRoundedCorner:(CGFloat)radius borderWidth:(CGFloat)borderWidth backgroundColor:(UIColor *)backgroundColor borderColor:(UIColor *)borderColor {
@@ -93,7 +104,9 @@ double Pixel(double num) {
 
 - (void)addCornerWithRadius:(CGFloat)radius {
     
-    self.image = [self.image imageAddCornerWithRadius:radius andSize:self.bounds.size];
+    if (self.image) {
+        self.image = [self.image imageAddCornerWithRadius:radius andSize:self.bounds.size];
+    }
 }
 
 @end

@@ -10,7 +10,20 @@
 
 @interface UIView (RoundCorner)
 
+/**
+ *  将背景颜色变为圆角
+ *
+ *  @param radius 圆角半径
+ */
 - (void)addCornerWithRadius:(CGFloat)radius;
-- (void)addCornerWithRadius:(CGFloat)radius borderWidth:(CGFloat)borderWidth backgroundColor:(UIColor *)backgroundColor borderColor:(UIColor *)borderColor;
+/**
+ *  添加圆角背景
+ *
+ *  @param radius          圆角半径
+ *  @param borderWidth     边线宽度
+ *  @param backgroundColor 背景颜色
+ *  @param borderColor     边线颜色
+ */
+- (UIImageView *)addCornerWithRadius:(CGFloat)radius borderWidth:(CGFloat)borderWidth backgroundColor:(UIColor *)backgroundColor borderColor:(UIColor *)borderColor;
 
 @end

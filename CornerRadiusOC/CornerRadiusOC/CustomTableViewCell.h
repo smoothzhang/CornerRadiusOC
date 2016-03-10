@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RCView.h"
 
 @interface CustomTableViewCell : UITableViewCell
 
-- (void)setupContent:(NSString *)string;
+@property (nonatomic) RCImageView * rcImageView;
+@property (nonatomic) RCView * rcView;
+@property (nonatomic) UIView * view;
+@property (nonatomic) RCLabel * rcLabel;
 
 @end
