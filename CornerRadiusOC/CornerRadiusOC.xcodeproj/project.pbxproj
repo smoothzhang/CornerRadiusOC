@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC59AC091C92B37E002D85F9 /* RCView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59AC041C92B37E002D85F9 /* RCView.m */; };
+		FC59AC0A1C92B37E002D85F9 /* UIImage+ImageRoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59AC061C92B37E002D85F9 /* UIImage+ImageRoundedCorner.m */; };
+		FC59AC0B1C92B37E002D85F9 /* UIView+RoundCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59AC081C92B37E002D85F9 /* UIView+RoundCorner.m */; };
 		FC65B3051C9012B4005A0AED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65B3041C9012B4005A0AED /* main.m */; };
 		FC65B3081C9012B4005A0AED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65B3071C9012B4005A0AED /* AppDelegate.m */; };
 		FC65B30B1C9012B4005A0AED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65B30A1C9012B4005A0AED /* ViewController.m */; };
 		FC65B30E1C9012B4005A0AED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC65B30C1C9012B4005A0AED /* Main.storyboard */; };
 		FC65B3101C9012B4005A0AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC65B30F1C9012B4005A0AED /* Assets.xcassets */; };
 		FC65B3131C9012B4005A0AED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC65B3111C9012B4005A0AED /* LaunchScreen.storyboard */; };
-		FC65B31F1C90172A005A0AED /* UIView+RoundCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65B31E1C90172A005A0AED /* UIView+RoundCorner.m */; };
-		FC65B3221C9021BF005A0AED /* UIImage+ImageRoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65B3211C9021BF005A0AED /* UIImage+ImageRoundedCorner.m */; };
 		FC65B3251C907250005A0AED /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65B3241C907250005A0AED /* CustomTableViewCell.m */; };
-		FC65B3281C911E65005A0AED /* RCView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65B3271C911E65005A0AED /* RCView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC59AC031C92B37E002D85F9 /* RCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCView.h; sourceTree = "<group>"; };
+		FC59AC041C92B37E002D85F9 /* RCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCView.m; sourceTree = "<group>"; };
+		FC59AC051C92B37E002D85F9 /* UIImage+ImageRoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageRoundedCorner.h"; sourceTree = "<group>"; };
+		FC59AC061C92B37E002D85F9 /* UIImage+ImageRoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageRoundedCorner.m"; sourceTree = "<group>"; };
+		FC59AC071C92B37E002D85F9 /* UIView+RoundCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundCorner.h"; sourceTree = "<group>"; };
+		FC59AC081C92B37E002D85F9 /* UIView+RoundCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundCorner.m"; sourceTree = "<group>"; };
 		FC65B3001C9012B4005A0AED /* CornerRadiusOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CornerRadiusOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC65B3041C9012B4005A0AED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC65B3061C9012B4005A0AED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,14 +36,8 @@
 		FC65B30F1C9012B4005A0AED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC65B3121C9012B4005A0AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC65B3141C9012B4005A0AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC65B31D1C90172A005A0AED /* UIView+RoundCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundCorner.h"; sourceTree = "<group>"; };
-		FC65B31E1C90172A005A0AED /* UIView+RoundCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundCorner.m"; sourceTree = "<group>"; };
-		FC65B3201C9021BF005A0AED /* UIImage+ImageRoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageRoundedCorner.h"; sourceTree = "<group>"; };
-		FC65B3211C9021BF005A0AED /* UIImage+ImageRoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageRoundedCorner.m"; sourceTree = "<group>"; };
 		FC65B3231C907250005A0AED /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		FC65B3241C907250005A0AED /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
-		FC65B3261C911E65005A0AED /* RCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCView.h; sourceTree = "<group>"; };
-		FC65B3271C911E65005A0AED /* RCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +51,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC59AC021C92B37E002D85F9 /* RCView */ = {
+			isa = PBXGroup;
+			children = (
+				FC59AC031C92B37E002D85F9 /* RCView.h */,
+				FC59AC041C92B37E002D85F9 /* RCView.m */,
+				FC59AC051C92B37E002D85F9 /* UIImage+ImageRoundedCorner.h */,
+				FC59AC061C92B37E002D85F9 /* UIImage+ImageRoundedCorner.m */,
+				FC59AC071C92B37E002D85F9 /* UIView+RoundCorner.h */,
+				FC59AC081C92B37E002D85F9 /* UIView+RoundCorner.m */,
+			);
+			path = RCView;
+			sourceTree = "<group>";
+		};
 		FC65B2F71C9012B4005A0AED = {
 			isa = PBXGroup;
 			children = (
@@ -76,12 +89,7 @@
 				FC65B30A1C9012B4005A0AED /* ViewController.m */,
 				FC65B3231C907250005A0AED /* CustomTableViewCell.h */,
 				FC65B3241C907250005A0AED /* CustomTableViewCell.m */,
-				FC65B3261C911E65005A0AED /* RCView.h */,
-				FC65B3271C911E65005A0AED /* RCView.m */,
-				FC65B31D1C90172A005A0AED /* UIView+RoundCorner.h */,
-				FC65B31E1C90172A005A0AED /* UIView+RoundCorner.m */,
-				FC65B3201C9021BF005A0AED /* UIImage+ImageRoundedCorner.h */,
-				FC65B3211C9021BF005A0AED /* UIImage+ImageRoundedCorner.m */,
+				FC59AC021C92B37E002D85F9 /* RCView */,
 				FC65B30C1C9012B4005A0AED /* Main.storyboard */,
 				FC65B30F1C9012B4005A0AED /* Assets.xcassets */,
 				FC65B3111C9012B4005A0AED /* LaunchScreen.storyboard */,
@@ -170,13 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC65B3221C9021BF005A0AED /* UIImage+ImageRoundedCorner.m in Sources */,
+				FC59AC0A1C92B37E002D85F9 /* UIImage+ImageRoundedCorner.m in Sources */,
 				FC65B30B1C9012B4005A0AED /* ViewController.m in Sources */,
 				FC65B3251C907250005A0AED /* CustomTableViewCell.m in Sources */,
+				FC59AC0B1C92B37E002D85F9 /* UIView+RoundCorner.m in Sources */,
+				FC59AC091C92B37E002D85F9 /* RCView.m in Sources */,
 				FC65B3081C9012B4005A0AED /* AppDelegate.m in Sources */,
-				FC65B3281C911E65005A0AED /* RCView.m in Sources */,
 				FC65B3051C9012B4005A0AED /* main.m in Sources */,
-				FC65B31F1C90172A005A0AED /* UIView+RoundCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
