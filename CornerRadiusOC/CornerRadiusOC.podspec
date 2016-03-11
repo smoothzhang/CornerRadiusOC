@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "Quick view with corner radius."
 
   s.homepage     = "https://github.com/zthhhhhhhhh/CornerRadiusOC"
-  s.license      = 'None'
+  s.license      = 'MIT'
   s.author       = { "Smooth" => "Smooth_Z@outlook.com" }
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "7.0"
