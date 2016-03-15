@@ -21,8 +21,8 @@
  *
  *  @param radius          圆角半径
  *  @param borderWidth     边线宽度
- *  @param backgroundColor 背景颜色
- *  @param borderColor     边线颜色
+ *  @param backgroundColor 背景颜色 默认clearColor
+ *  @param borderColor     边线颜色 默认clearColor
  */
 - (UIImageView *)addCornerWithRadius:(CGFloat)radius borderWidth:(CGFloat)borderWidth backgroundColor:(UIColor *)backgroundColor borderColor:(UIColor *)borderColor;
 

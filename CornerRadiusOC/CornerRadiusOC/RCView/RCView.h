@@ -12,7 +12,7 @@
 
 @property (nonatomic, assign) CGFloat radius;//圆角半径
 @property (nonatomic, assign) CGFloat borderWidth;//边线宽度
-@property (nonatomic) UIColor * cornerBackgroundColor;//控制圆角背景颜色，若将backgroundColor改成非透明则无圆角效果
+@property (nonatomic) UIColor * cornerBackgroundColor;//控制圆角背景颜色，直接改backgroundColor无圆角效果
 @property (nonatomic) UIColor * borderColor;//边线颜色
 
 /**
@@ -21,8 +21,8 @@
  *  @param frame           frame
  *  @param radius          圆角半径
  *  @param borderWidth     边线宽度
- *  @param backgroundColor 背景颜色
- *  @param borderColor     边线颜色
+ *  @param backgroundColor 背景颜色 传nil默认clearColor
+ *  @param borderColor     边线颜色 传nil默认clearColor
  *
  *  @return 圆角View
  */
@@ -41,7 +41,7 @@
 @interface RCImageView : UIImageView
 
 @property (nonatomic, assign) CGFloat radius;//圆角半径
-@property (nonatomic) UIImage * rcImage;//将图片传入这个属性有圆角效果，传入image无圆角效果
+@property (nonatomic) UIImage * rcImage;//将图片传入这个属性有圆角效果，直接传入image无圆角效果
 
 /**
  *  创建圆角ImageView
